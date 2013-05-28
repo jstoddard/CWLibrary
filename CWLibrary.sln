@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWLibrary", "CWLibrary\CWLibrary.csproj", "{BB1D2263-20CB-4934-9F2B-5A2D1BDAF165}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3375E244-5EE5-45CE-B449-D3913B5CD78D}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB1D2263-20CB-4934-9F2B-5A2D1BDAF165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1D2263-20CB-4934-9F2B-5A2D1BDAF165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1D2263-20CB-4934-9F2B-5A2D1BDAF165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1D2263-20CB-4934-9F2B-5A2D1BDAF165}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
