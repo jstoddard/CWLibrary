@@ -126,7 +126,19 @@ namespace CWLibrary
             {
                 if (i > 0)
                     data.AddRange(GetInterCharSpace());
-                data.AddRange(GetCharacter(word[i].ToString()));
+                if (word[i] == '<')
+                {
+                    // Prosign
+                    int end = word.IndexOf('>', i);
+                    if (end < 0)
+                        throw new ArgumentException();
+                    data.AddRange(GetCharacter(word.Substring(i, end + 1 - i)));
+                    i = end;
+                }
+                else
+                {
+                    data.AddRange(GetCharacter(word[i].ToString()));
+                }
             }
 
             return data.ToArray<short>();
