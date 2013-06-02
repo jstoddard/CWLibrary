@@ -53,6 +53,20 @@ If you also wanted to raise the pitch to 800 Hz, the following would do so:
 The code is licensed under the MIT license, so you can do pretty much whatever
 you want with it.
 
+THANKS:
+
+I ought to credit a specific series of articles that got me up and running
+with the wave file format right away. These three blog posts on MSDN saved me
+from many hours of trial and error:
+
+http://blogs.msdn.com/b/dawate/archive/2009/06/22/intro-to-audio-programming-part-1-how-audio-data-is-represented.aspx
+http://blogs.msdn.com/b/dawate/archive/2009/06/23/intro-to-audio-programming-part-2-demystifying-the-wav-format.aspx
+http://blogs.msdn.com/b/dawate/archive/2009/06/24/intro-to-audio-programming-part-3-synthesizing-simple-wave-audio-using-c.aspx
+
+Nevertheless, since I did things a little differently from the blog author, I
+ran into a few issues which I was able to look into using wxHexEditor and
+Audacity. A big thank you to all authors of Free and Open Source software!
+
 LICENSE:
 
 CW Library
