@@ -29,13 +29,13 @@ namespace CWLibrary
         private short[] GetWave(double seconds)
         {
             short[] waveArray;
-            int samples = (int)(44100 * seconds);
+            int samples = (int)(11025 * seconds);
             
             waveArray = new short[samples];
 
             for (int i = 0; i < samples; i++)
             {
-                waveArray[i] = Convert.ToInt16(32760 * Math.Sin(i * 2 * Math.PI * Frequency / 44100));
+                waveArray[i] = Convert.ToInt16(32760 * Math.Sin(i * 2 * Math.PI * Frequency / 11025));
             }
 
             return waveArray;
@@ -49,7 +49,7 @@ namespace CWLibrary
         private short[] GetSilence(double seconds)
         {
             short[] waveArray;
-            int samples = (int)(44100 * seconds);
+            int samples = (int)(11025 * seconds);
 
             waveArray = new short[samples];
 

@@ -20,8 +20,8 @@ namespace CWLibrary
             ChunkSize = 16;
             CompressionCode = 1;
             NumChannels = 1;
-            SampleRate = 44100;
-            BytesPerSecond = 88200;
+            SampleRate = 11025;
+            BytesPerSecond = 22050;
             BlockAlign = 2;
             SignificantBits = 16;
         }
